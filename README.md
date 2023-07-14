@@ -23,7 +23,7 @@ transliterate.process(src, tgt, txt, nativize = True, pre_options = [], post_opt
 | src: str  | Used to provide the source transliteration script |
 | tgt: str  | Used to provide target transliteration script  |
 | txt: str  | Provide text to be transliterated  |
-| mavitize: bool  | navitize the text  |
+| navitize: bool  | navitize the text  |
 | pre_options: list  | Options to customize input (source) string for processing |
 | post_options: list  | Options to customize output (target) string for processing |
 
