@@ -2,7 +2,7 @@
 
 Aksarantara is a framework specially for **Sanskrit** enthausists supporting indic, eastern, roman and other language transliteration. Aksarantara is also written in [Ruby](https://github.com/enginestein/aksarantara.rb) and [PHP](https://github.com/enginestein/aksarantara.php) but this Python version is the best. The PHP and Ruby version need further updates.
 
-# Usage
+# Installation
 
 To install Aksarantara
 
@@ -27,7 +27,7 @@ transliterate.process(src, tgt, txt, nativize = True, pre_options = [], post_opt
 | pre_options: list  | Options to customize input (source) string for processing |
 | post_options: list  | Options to customize output (target) string for processing |
 
-## Usage in code
+# Usage
 
 ```python
 from aksrantara import transliterate
