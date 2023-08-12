@@ -35,32 +35,12 @@ from aksrantara import transliterate
 print(transliterate.process("hk", "siddham", "mataram"))
 print(transliterate.process("autodetect", "iast", "அம்மாவை வணங்குகிறேன்"))
 print(transliterate.process("hk", "Tamil", "அம்மாவை வணங்குகிறேன்", False))
-
-print(
-    transliterate.process(
-        "HK",
-        "Tamil",
-        "அம்மாவை வணங்குகிறேன்,
-        False,
-        post_options=["TamilSubScript", "TamilRemoveApostrophe"],
-    )
-)
-print(
-    transliterate.process(
-        "Thai", "Devanagari", "ภุทธัง สะระณัง คัจฉามิ", pre_options=["ThaiOrthography"]
-    )
-)
+print(transliterate.process("HK","Tamil","அம்மாவை வணங்குகிறேன்", False, post_options=["TamilSubScript", "TamilRemoveApostrophe"]))
+print(transliterate.process("Thai", "Devanagari", "ภุทธัง สะระณัง คัจฉามิ", pre_options=["ThaiOrthography"]))
 print(transliterate.process("autodetect", "IAST", "สวัสดีประเทศชาติ"))
 print(transliterate.process("autodetect", "Vatteluttu", "สวัสดีประเทศชาติ"))
 print(transliterate.auto_detect("வாழ்க இந்தியா"))
-print(
-    transliterate.process(
-        "Devanagari",
-        "IAST",
-        "सर्वे भवन्तु सुखिनः",
-        pre_options=["RemoveSchwaHindi"],
-    )
-)
+print(transliterate.process("Devanagari", "IAST", "सर्वे भवन्तु सुखिनः", pre_options=["RemoveSchwaHindi"]))
 print(transliterate.process("deva", "taml", "वन्दे मातरम ", param="script_code"))
 print(transliterate.process("te", "ur", "వందే భారత్ మాతరం", param="lang_code"))
 print(transliterate.process("odia", "ho", "వందే భారత్ మాతరం", param="lang_name"))
@@ -68,11 +48,7 @@ print(transliterate.process("hindi", "kannada", "वन्दे मातरम
 print(transliterate.process("devanagari", "granthapandya", "धर्म"))
 print(transliterate.process("hi", "pa", "वन्दे मातरम ", param="lang_code"))
 print(transliterate.process("deva", "arab", "वन्दे मातरम ", param="script_code"))
-print(
-    transliterate.process(
-        "autodetect", "latn-iast", "वन्दे मातरम ", param="script_code"
-    )
-)
+print(transliterate.process("autodetect", "latn-iast", "वन्दे मातरम ", param="script_code"))
 print(transliterate.process("la-HK", "pa-guru", "namo buddhAya", param="lang_code"))
 print(transliterate.process("hi-Deva", "hi-kthi", "वन्दे मातरम ", param="lang_code"))
 print(transliterate.process("hi-Deva", "mak", "वन्दे मातरम ", param="lang_code"))
