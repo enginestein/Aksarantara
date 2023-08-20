@@ -30,7 +30,7 @@ transliterate.process(src, tgt, txt, nativize = True, pre_options = [], post_opt
 # Usage
 
 ```python
-from aksrantara import transliterate
+from aksarantara import transliterate
 
 print(transliterate.process("hk", "siddham", "mataram"))
 print(transliterate.process("autodetect", "iast", "அம்மாவை வணங்குகிறேன்"))
