@@ -1,5 +1,7 @@
 # Aksarantara
 
+[![Downloads](https://static.pepy.tech/badge/aksarantara)](https://pepy.tech/project/aksarantara)
+
 Aksarantara is a framework specially for **Sanskrit** enthausists supporting indic, eastern, roman and other language transliteration. Aksarantara is also written in [Ruby](https://github.com/enginestein/aksarantara.rb) and [PHP](https://github.com/enginestein/aksarantara.php) but this Python version is the best. The PHP and Ruby version need further updates.
 
 # Installation
